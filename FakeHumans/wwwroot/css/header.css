@@ -1,5 +1,10 @@
 ﻿#header-wrapper {
     height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(30px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +28,7 @@
     transition: color ease 0.3s;
 }
 #header-logotype a:hover {
-    color: red;
+    color: rgb(150, 55, 57);
 }
 #header-menu {
     height: 100%;
@@ -46,7 +51,7 @@
     margin: 0 25px;
 }
 .header-menu-item:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid rgb(150, 55, 57);
     cursor: pointer;
 }
 

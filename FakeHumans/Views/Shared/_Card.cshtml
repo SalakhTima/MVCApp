@@ -1,0 +1,38 @@
+﻿@model FakeHumans.Models.Human
+
+<link rel="stylesheet" href="~/FakeHumans.styles.css" />
+<div class='card'>
+    <div id='image-wrapper'>
+        <img src="~/img/dummy.jpg" alt="human_dummy">
+    </div>
+    <div id='content-wrapper'>
+        <div class='row'>
+            <p class='title'>FULL NAME</p>
+            <p class='data'>@Model.FullName</p>
+        </div>
+        <div class='row'>
+            <p class='title'>DOB</p>
+            <p class='data'>@Model.DOB</p>
+        </div>
+        <div class='row'>
+            <p class='title'>SEX</p>
+            <p class='data'>@Model.Sex</p>
+        </div>
+        <div class='row'>
+            <p class='title'>COUNTRY</p>
+            <p class='data'>@Model.Country</p>
+        </div>
+        <div class='row'>
+            <p class='title'>CIT</p>
+            <p class='data'>@Model.CIT</p>
+        </div>
+        <div class='row'>
+            <p class='title'>HEIGHT</p>
+            <p class='data'>@Model.Height</p>
+        </div>
+        <div class='row'>
+            <p class='title'>EYES COLOR</p>
+            <p class='data'>@Model.EyesColor</p>
+        </div>
+    </div>
+</div> 

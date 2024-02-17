@@ -1,0 +1,10 @@
+﻿@model IEnumerable<FakeHumans.Models.Human>
+
+@{
+    ViewBag.Title = "Americans";
+}
+
+@foreach (FakeHumans.Models.Human human in Model)
+{
+    await Html.RenderPartialAsync("~/Views/Shared/_Card.cshtml", human);
+}

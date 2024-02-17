@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>FakeHumans | @ViewBag.Title</title>
+    <link href="~/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+    @await Html.PartialAsync("~/Views/Shared/_Header.cshtml")
+    <div id="content">
+        @RenderBody()
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/_Footer.cshtml")
+</body>
+</html>

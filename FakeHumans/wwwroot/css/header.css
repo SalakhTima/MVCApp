@@ -1,0 +1,52 @@
+﻿#header-wrapper {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 40px;
+    border-bottom: 1px solid #282828;
+}
+#header-logotype {
+    height: 100%;
+}
+#header-logotype a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: white;
+    font-size: 2.1em;
+    transition: color ease 0.3s;
+}
+#header-logotype a:hover {
+    color: red;
+}
+#header-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-menu-item {
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom ease 0.3s;
+}
+.header-menu-item a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    margin: 0 25px;
+}
+.header-menu-item:hover {
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+
